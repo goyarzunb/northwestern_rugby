@@ -227,3 +227,11 @@ h3 {
 .image-container:hover .caption {
   display: block; /* Show the caption on hover */
 }
+
+.carousel-caption {
+  display: none;
+}
+
+.carousel-item:hover .carousel-caption {
+  display: block;
+}
