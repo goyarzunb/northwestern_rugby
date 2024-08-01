@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/northwestern_rugby/static/css/main.25f1b2e2.css",
-    "main.js": "/northwestern_rugby/static/js/main.2eb9e5c8.js",
+    "main.css": "/northwestern_rugby/static/css/main.fea08cbe.css",
+    "main.js": "/northwestern_rugby/static/js/main.cb691a70.js",
     "static/js/453.f62e3202.chunk.js": "/northwestern_rugby/static/js/453.f62e3202.chunk.js",
     "index.html": "/northwestern_rugby/index.html",
-    "main.25f1b2e2.css.map": "/northwestern_rugby/static/css/main.25f1b2e2.css.map",
-    "main.2eb9e5c8.js.map": "/northwestern_rugby/static/js/main.2eb9e5c8.js.map",
+    "main.fea08cbe.css.map": "/northwestern_rugby/static/css/main.fea08cbe.css.map",
+    "main.cb691a70.js.map": "/northwestern_rugby/static/js/main.cb691a70.js.map",
     "453.f62e3202.chunk.js.map": "/northwestern_rugby/static/js/453.f62e3202.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f1b2e2.css",
-    "static/js/main.2eb9e5c8.js"
+    "static/css/main.fea08cbe.css",
+    "static/js/main.cb691a70.js"
   ]
 }
