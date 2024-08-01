@@ -1,13 +1,12 @@
-// src/App.js
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import MeetAthletes from './MeetAthletes';
 import MeetAlumni from './MeetAlumni';
 import SeeUs from './SeeUs';
 import NavigationBar from './NavigationBar';
-import './main.css'; 
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './main.css'; // Your CSS file
+import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 
 const Footer = () => (
   <footer className="bg-dark text-light text-center py-4 mt-auto">
@@ -33,7 +32,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/northwestern_rugby">
       <div className="d-flex flex-column min-vh-100" style={{ fontFamily: font }}>
         <header>
           <NavigationBar />

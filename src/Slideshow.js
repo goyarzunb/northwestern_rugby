@@ -6,25 +6,25 @@ const Slideshow = () => {
   return (
     <Carousel>
       <Carousel.Item>
-        <div className="image-container">
-          <img
-            className="d-block w-100"
-            src="Pictures/group_picture.jpeg"
-            alt="Group Picture"
-          />
-          <div className="caption">Group picture of after both teams won first place in Lake Side 7s!</div>
-        </div>
+        <img
+          className="d-block w-100"
+          src={`${process.env.PUBLIC_URL}/Pictures/group_picture.jpeg`}
+          alt="Men and Womens' team after winning first place at Lake Side 7s"
+        />
+        <Carousel.Caption>
+          <h3>Group picture after both teams won first place in Lake Side 7s!</h3>
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <div className="image-container">
-          <img
-            className="d-block w-100"
-            src="Pictures/all-min.jpeg"
-            alt="Womens' Team"
-          />
-          <div className="caption">Womens' Team</div>
-        </div>
+        <img
+          className="d-block w-100"
+          src={`${process.env.PUBLIC_URL}/Pictures/all-min.jpeg`}
+          alt="Women's Team Group Picture"
+        />
+        <Carousel.Caption>
+          <h3>Women's Team</h3>
+        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
