@@ -1,0 +1,229 @@
+body {
+  font-family: Trebuchet MS, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E2E4F6;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd; 
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%288, 8, 8, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 10%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.main-content {
+  margin: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  text-align: left;
+  margin: 20px;
+}
+
+.font-buttons button {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F3C969;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.font-buttons {
+  text-align: left;
+}
+
+.font-buttons button:hover {
+  background-color: #878472;
+}
+
+.join-team button {
+  color: #1D1E18;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F3C969;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.join-team button:hover {
+  background-color: #878472;
+}
+
+.socials a {
+  color: #E2E4F6 !important;
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #ddd !important;
+  text-decoration: underline;
+}
+
+.add-calendar button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F3C969;
+  color: #1D1E18;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-calendar button:hover {
+  background-color: #878472;
+}
+
+.profile a {
+  text-decoration: none;
+  color: #593C8F;
+  font-weight: bold;
+}
+
+.profile a:hover {
+  text-decoration: underline;
+  color: #593C8F;
+}
+
+.team-links a {
+  text-decoration: none;
+  color: #593C8F;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.team-links a:hover {
+  text-decoration: underline;
+  color: #593C8F;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap-reverse;
+}
+
+.calendar-jumps button {
+  color: #1D1E18;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F3C969;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.calendar-jumps button:hover {
+  background-color: #878472;
+}
+
+.calendar-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #eee;
+}
+
+.calendar-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove iframe border */
+}
+
+/* main.css */
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  display: none; /* Hide the caption by default */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.image-container:hover .caption {
+  display: block; /* Show the caption on hover */
+}
