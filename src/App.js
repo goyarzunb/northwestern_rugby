@@ -33,7 +33,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/northwestern_rugby">
       <div className="d-flex flex-column min-vh-100" style={{ fontFamily: font }}>
         <header>
           <NavigationBar />
